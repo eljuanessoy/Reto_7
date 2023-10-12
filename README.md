@@ -4,6 +4,8 @@ By Juan Esteban Molina Rey (eljuanessoy)
 
 ### 1. Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
 
++ Para realizar este codigo primero declare la variable n como 1, luego usando "while" hice una iteración para que se vaya creando una lista de números de uno en uno así hasta llegar a cien y cuando llega a cien se imprime la lista.
+
 ```python
 n : int = 1
 while n <= 100:
@@ -24,6 +26,8 @@ flowchart TB;
 ```
 
 ### 2. Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
+
++ Para realizar este codigo primero declare la variable n como 0 y la variable m como 1, luego usando "while" hice 2 iteraciónes para que se vayan creando 2 listas de números, una de esas listas es de numeros que empiezan desde 0 y se le suma de a 2 hasta llegar a 1000 y la otra lista hace lo mismo pero empieza desde -1 y termina en 999, y luego de esto se imprime la lista.
 
 ```python
 n : int = 0
@@ -54,6 +58,8 @@ flowchart TB;
 ```
 
 ### 3. Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
+
++ Para realizar este codigo primero use input, luego usando "while" hice una iteración para que se vaya creando una lista de números los cuales se les restara 2 si su residuo al dividir por 2 sea 0, y si su residuo no es 0 entonces solo se le suma 1 al valor ingresado y luego se le resta 2, y despues de esto se imprime la lista.
 
 ```python
 n = int(input("Ingrese un número natural mayor o igual a 2: "))
